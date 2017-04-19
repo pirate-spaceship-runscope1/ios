@@ -1886,6 +1886,7 @@
 						TestTargetID = 83F32257149290EF00A61BC5;
 					};
 					83F32257149290EF00A61BC5 = {
+						DevelopmentTeam = 9KBH5RKYEW;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -2869,9 +2870,9 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEBUG = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9KBH5RKYEW;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DuckDuckGo/DuckDuckGo-Prefix.pch";
@@ -2887,8 +2888,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.duckduckgo.mobile.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "c381f3d3-9dc4-450f-a775-c8da1e4809de";
+				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "DuckDuckGo/DuckDuckGo-Bridging-Header.h";
@@ -3004,10 +3005,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEBUG = 1;
 				"DEBUG[arch=*]" = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9KBH5RKYEW;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DuckDuckGo/DuckDuckGo-Prefix.pch";
@@ -3023,8 +3024,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.duckduckgo.mobile.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "c381f3d3-9dc4-450f-a775-c8da1e4809de";
+				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "DuckDuckGo/DuckDuckGo-Bridging-Header.h";
@@ -3045,9 +3046,9 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEBUG = 0;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9KBH5RKYEW;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DuckDuckGo/DuckDuckGo-Prefix.pch";
@@ -3063,8 +3064,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.duckduckgo.mobile.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "c381f3d3-9dc4-450f-a775-c8da1e4809de";
+				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "DuckDuckGo/DuckDuckGo-Bridging-Header.h";
@@ -3117,7 +3118,6 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG = 1;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
